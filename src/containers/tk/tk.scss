@@ -1,0 +1,25 @@
+.mb__tk {
+    .mb__tk-content {
+        .mb__tk-content__curriculum {
+            .mb__tk-content__curriculum--title {
+                font-weight: 600;
+                font-size: 25px;
+                position: relative;
+                &:after {
+                    content: "";
+                    display: block;
+                    width: 150px;
+                    height: 4px;
+                    margin-top: 5px;
+                    background: #d39e3b;
+                }
+            }
+            .mb__tk-content__curriculum--desc {
+                color: #6a6a6a;
+                margin: 20px 0;
+            }
+            .mb__tk-content__curriculum-items {
+            }
+        }
+    }
+}

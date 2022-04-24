@@ -1,0 +1,21 @@
+.mb__item-grid {
+    background: #f2f2f2;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .mb__item-grid__image {
+        height: 50px;
+        width: 50px;
+        img {
+            width: 100%;
+        }
+        margin-bottom: 10px;
+    }
+    .mb__item-grid--desc {
+        font-weight: 600;
+        color: rgb(45, 7, 77);
+        font-size: 20px;
+    }
+}

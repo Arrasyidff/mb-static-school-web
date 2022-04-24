@@ -1,0 +1,7 @@
+export { default as Cover } from './cover/Cover'
+export { default as JoinUs } from './joinus/JoinUs'
+export { default as Educations } from './educations/Educations'
+export { default as Articles } from './articles/Articles'
+export { default as Testimonials } from './testimonials/Testimonials'
+export { default as About } from './about/About'
+export { default as Profile } from './profile/Profile'

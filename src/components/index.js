@@ -1,0 +1,6 @@
+export { default as Navbar } from './navbar/Navbar'
+export { default as Education } from './education/Education'
+export { default as Article } from './article/Article'
+export { default as Testimoni } from './testimoni/Testimoni'
+export { default as CoverPage } from './coverPage/CoverPage'
+export { default as ItemGrid } from './itemGrid/ItemGrid'

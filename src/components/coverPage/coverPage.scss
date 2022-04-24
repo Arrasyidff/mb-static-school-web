@@ -1,0 +1,13 @@
+.mb__cover-page {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    .mb__cover-page--title {
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 50px;
+        padding-top: 20px;
+    }
+}

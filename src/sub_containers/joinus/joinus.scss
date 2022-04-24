@@ -1,0 +1,24 @@
+.mb__join {
+    background-color: #d39e3b;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    p {
+        font-weight: 550;
+        color: white;
+    }
+    button {
+        padding: 7px 50px;
+        border-radius: 30px;
+        border: white 2px solid;
+        outline: none;
+        font-weight: 550;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        transition: .3s;
+        background: #145437;
+    }
+}

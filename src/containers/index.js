@@ -1,0 +1,7 @@
+export { default as Home } from './home/Home'
+export { default as Articles } from './articles/Articles'
+export { default as Ppdb } from './ppdb/Ppdb'
+export { default as Article } from './article/Article'
+export { default as Tk } from './tk/Tk'
+export { default as Mi } from './mi/Mi'
+export { default as Mts } from './mts/Mts'

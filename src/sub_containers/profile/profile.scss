@@ -1,0 +1,19 @@
+.mb__profile {
+    .mb__profile-header,
+    .mb__profile-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mb__profile-header {
+        color: #643D72;
+        .fa-video {
+            font-size: 25px;
+            margin-right: 10px;
+        }
+    }
+    .mb__profile-content {
+        margin-top: 50px;
+        justify-content: space-around;
+    }
+}
