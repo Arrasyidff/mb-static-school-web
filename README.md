@@ -1,4 +1,4 @@
-# node version
+# node version (check update)
 version 16.30.0
 
 # Getting Started with Create React App
