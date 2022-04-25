@@ -70,7 +70,7 @@ function Mts() {
                 return (
                   <div key={idx} className="mb__mts-content__container-desc__item">
                     <div className="mb__mts-content__container-desc__item__icon">
-                      <i class="fas fa-check"></i>
+                      <i className="fas fa-check"></i>
                     </div>
                     <p className="mb__mts-content__container-desc__item--desc">{item.desc}</p>
                   </div>
@@ -92,7 +92,7 @@ function Mts() {
           >
             {
               items.map((el, idx) => {
-                return <ItemGrid desc={el.desc} />
+                return <ItemGrid key={idx} desc={el.desc} />
               })
             }
           </div>

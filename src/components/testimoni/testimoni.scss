@@ -7,13 +7,14 @@
 .mb__testimoni {
     text-align: center;
     flex-direction: column;
+    height: 300px;
     .fa-quote-right {
         color: #643D72;
         font-size: 13px;
     }
     .mb__testimoni--word {
         font-size: 15px;
-        height: 160px;
+        // height: 160px;
     }
     .mb__testimoni-cover {
         margin-top: 10px;

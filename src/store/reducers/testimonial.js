@@ -5,6 +5,8 @@ let initialState = {
 
 function testimonial(state = initialState, action) {
     switch (action.type) {
+        case 'loading/setLoading': 
+            return {...state, loading: action.payload}
         case 'testimonial/setTestimonials':
             return {...state, testimonials: action.payload}
         default:

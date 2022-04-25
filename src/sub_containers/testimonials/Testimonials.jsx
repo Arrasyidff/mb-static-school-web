@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './testimonials.scss'
 
 import { Testimoni } from '../../components';
@@ -8,16 +8,10 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { Autoplay, Pagination, Navigation } from "swiper";
-import { useSelector, useDispatch } from 'react-redux'
-import { setTestimonials } from '../../store/actions/testimonial'
+import { useSelector } from 'react-redux'
 
 function Testimonials() {
-  const testimonial = useSelector(state => state.testimonial)
-  const dispatch = useDispatch()
-
-  useEffect(() => {
-      dispatch(setTestimonials())
-  }, [dispatch])
+  const {testimonials } = useSelector(state => state.testimonial)
 
   return (
     <div className="mb__testimonials section__padding">
@@ -36,10 +30,14 @@ function Testimonials() {
             className="mySwiper"
         >
             {
-            testimonial.testimonials.map((el, i) => {
+            testimonials.map((testimoni, i) => {
                 return (
                 <SwiperSlide key={i}>
-                    <Testimoni />
+                    <Testimoni
+                        name={testimoni.fullName}
+                        picture={testimoni.picture}
+                        message={testimoni.message}
+                    />
                 </SwiperSlide>
                 )
             })
