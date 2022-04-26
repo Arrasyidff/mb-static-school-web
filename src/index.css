@@ -10,9 +10,9 @@
   scroll-behavior: smooth;
 }
 
-body {
+/* body {
   min-height: 500vh;
-}
+} */
 
 ::selection {
   background-color: rgb(45, 7, 77);
