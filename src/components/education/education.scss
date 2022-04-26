@@ -12,7 +12,6 @@
     .mb__education-cover {
         overflow: hidden;
         height: 200px;
-        background: red;
         img {
             width: 100%;
         }
@@ -30,5 +29,50 @@
     }
     &:hover {
         box-shadow: #643D72 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mb__education {
+        width: 230px;
+        height: 320px;
+        &:nth-of-type(2) {
+            margin: 0 10px;
+        }
+        .mb__education-cover {
+            height: 135px;
+        }
+        .mb__education--level-title {
+            padding: 5px;
+            font-size: 15px;
+        }
+        .mb__education--level-description {
+            padding: 0 7px;
+            font-size: 13px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mb__education {
+        width: 100%;
+        height: 260px;
+        &:nth-of-type(2) {
+            margin: 0;
+        }
+        .mb__education-cover {
+            height: 135px;
+        }
+        .mb__education--level-title {
+            padding: 2px;
+            font-size: 13px;
+        }
+        .mb__education--level-description {
+            padding: 0 10px;
+            font-size: 13px;
+        }
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
     }
 }

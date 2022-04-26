@@ -23,12 +23,21 @@ function Articles() {
     <div className="mb__sub-articles section__padding">
       <h1 className="mb__sub-articles--title section__title">Berita & Artikel</h1>
       <Swiper
-        slidesPerView={4}
         centeredSlides={false}
         spaceBetween={0}
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        breakpoints={{
+          280: {
+            width: 280,
+            slidesPerView: 1
+          },
+          768: {
+            width: 768,
+            slidesPerView: 3
+          }
+        }}
       >
         {
           article.articles.map((el, i) => {

@@ -36,7 +36,6 @@
             margin-top: 5px;
             height: 80px;
             color: rgb(36, 36, 36);
-            // background: red;
         }
         .mb__article-bottom-side--btn-detail {
             margin-top: auto;
@@ -51,6 +50,90 @@
                 background: #643D72;
                 color: white;
                 border-radius: 22px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .mb__article {
+        padding: 10px;
+        font-size: 13px;
+        .mb__article-top-side {
+            .mb__article-top-side--date-create {
+                span {
+                    padding: 1px 3px;
+                    font-size: 14px;
+                }
+            }
+        }
+        .mb__article-bottom-side {
+            margin-top: 8px;
+            height: 240px;
+            .mb__article-bottom-side__cover {
+                height: 130px;
+            }
+            .mb__article-bottom-side--description {
+                margin-top: 3px;
+                height: 70px;
+            }
+            .mb__article-bottom-side--btn-detail {
+                button {
+                    padding: 3px 13px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mb__article {
+        font-size: 11px;
+        padding: 5px;
+        .mb__article-top-side {
+            .mb__article-top-side--date-create {
+                span {
+                    padding: 1px 3px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .mb__article-bottom-side {
+            margin-top: 5px;
+            height: 200px;
+            .mb__article-bottom-side__cover {
+                height: 100px;
+            }
+            .mb__article-bottom-side--description {
+                margin-top: 3px;
+                height: 70px;
+            }
+            .mb__article-bottom-side--btn-detail {
+                button {
+                    padding: 3px 11px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .mb__article {
+        padding: 5px;
+        font-size: 7px;
+        .mb__article-top-side {
+            .mb__article-top-side--date-create {
+                span {
+                    padding: 1px 3px;
+                    font-size: 7px;
+                }
+            }
+        }
+        .mb__article-bottom-side {
+            margin-top: 3px;
+            height: 130px;
+            .mb__article-bottom-side__cover {
+                height: 100px;
             }
         }
     }

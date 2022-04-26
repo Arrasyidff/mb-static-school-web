@@ -19,7 +19,7 @@ function Testimonials() {
         <Swiper
             slidesPerView={3}
             centeredSlides={false}
-            spaceBetween={10}
+            spaceBetween={0}
             navigation={true}
             modules={[Autoplay, Pagination, Navigation]}
             autoplay={{
@@ -28,6 +28,16 @@ function Testimonials() {
             }}
             loop={true}
             className="mySwiper"
+            breakpoints={{
+                280: {
+                    slidesPerView: 1,
+                    spaceBetween: 5
+                },
+                550: {
+                    slidesPerView: 3,
+                    spaceBetween: 5
+                },
+            }}
         >
             {
             testimonials.map((testimoni, i) => {

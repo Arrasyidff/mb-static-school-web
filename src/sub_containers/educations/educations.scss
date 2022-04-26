@@ -11,3 +11,19 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .mb__educations {
+        .mb__educations-items {
+            margin-top: 25px;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .mb__educations {
+        .mb__educations-items {
+            display: block;
+        }
+    }
+}
